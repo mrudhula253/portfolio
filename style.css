@@ -1,0 +1,67 @@
+body{
+font-family:Poppins;
+}
+
+.hero{
+padding-top:120px;
+padding-bottom:80px;
+background:linear-gradient(135deg,#000000,#1e293b);
+color:rgb(255, 252, 252);
+}
+
+.profile-img{
+width:300px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+.section-title{
+margin-bottom:30px;
+font-weight:600;
+}
+
+.project-card{
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+}
+
+.certificate{
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+.skills-section{
+ text-align: right;
+padding:60px 20px;
+background:#f5f5f5;
+}
+
+.skills-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+margin-top:30px;
+}
+
+.skill-box{
+background:white;
+padding:25px;
+width:120px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.skill-box i{
+font-size:40px;
+margin-bottom:10px;
+color:#0d6efd;
+}
+
+.skill-box:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
